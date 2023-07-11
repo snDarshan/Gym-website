@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Fitness</title>
+    <link rel="icon" href="logo.jpg">
+</head>
+<style>
+    body {
+        color: aliceblue;
+        margin: 0px;
+        padding: opx;
+        background: url('BG.jpg');
+        height: 100%;
+        background-size: cover;
+
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red;*/
+        position: absolute;
+        right: 250px;
+        top: 75px;
+    }
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        width: 50%;
+        margin: 12px auto;
+        font-size:xx-large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       /* border: 2px solid green;*/
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .navbar li a {
+        color: rgb(61, 51, 48);
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(168, 39, 39);
+    }
+
+    .container {
+        opacity: 0.7;
+        color: black;
+        position: absolute;
+        border: 4px solid rgb(163, 209, 199);
+        background-color: rgba(158, 179, 167, 0.068);
+        margin: 165px 25px;
+        padding: 0px 2px;
+        width: 36%;
+        right: 120px;
+        border-radius: 8px;
+    }
+
+    .forms input {
+        text-align: center;
+        display: block;
+        width: 345px;
+        padding: 1px;
+        border: 2px solid black;
+        font-size: 25px;
+        border-radius: 8px;
+        margin: 12px auto;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        margin: 12px auto;
+        width: 70%;
+
+    }
+</style>
+
+<body>
+    <header class="head">
+        <div class="right">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="container">
+            <h1>Join Us Now</h1>
+            <form action="noaction.php">
+                <div class="forms">
+                    <input type="text" name="" placeholder="Enter Your Name">
+                </div>
+                <div class="forms">
+                    <input type="text" name="" placeholder="Enter Your Age">
+                </div>
+                <div class="forms">
+                    <input type="text" name="" placeholder="Enter Your Gender">
+                </div>
+                <div class="forms">
+                    <input type="text" name="" placeholder="Enter Your Venue">
+                </div>
+                <button class="btn3">Submit
+                </button>
+            </form>
+        </div>
+
+    </header>
+</body>
+
+</html>
